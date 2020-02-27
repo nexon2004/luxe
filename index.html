@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Язык сайта-->
+<head> <!--Шапка сайта, служебный контент-->
+    <meta charset="UTF-8"> <!--Кодировка-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ключевые слова для поисковика-->
+    <title>Document</title> <!--Отображение на вкладке-->
+    <link rel="stylesheet" href="style.css"> <!--Подключение стилей с внешнего файла-->
+</head>
+<body> <!--Тело сайта, отображаемый контент-->
+    <header> <!--Голова сайта, контакты и навигация--> 
+        <nav> <!--Блок с навигацией-->
+            <input type="checkbox" id="checkbox-menu"> <!--Input=ввод, checkbox=кнопка, которую можно нажать и отжать. Id=идентификатор -->
+            <label for="checkbox-menu"> <!--Текстовая метка для элемента input, если его прожать-нажмется Input-->
+                <ul class="menu touch"> <!--Неупорядоченый список, class=класс для стилистических изменений в CSS-->
+                    <li><a class="logo" href="#">Luxestate</a></li><!--li=Элемент списка, a=Ссылка-->
+                    <li><a href="#">About</a></li><!--li=Элемент списка, a=Ссылка-->
+                    <li><a href="#">Apartment</a></li><!--li=Элемент списка, a=Ссылка-->
+                    <li><a href="#">How It Work</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a class="contacts" href="#">Contact Us</a></li>
+                    <li><a href="#">Join Us</a></li>
+                    <li><a href="#">Getting Started</a></li>
+                </ul>
+                <span class="toggle">☰</span> <!--Строчный элемент, используется для выделения и форматирования отдельных фрагментов текста-->
+            </label>
+        </nav>
+    </header>
+    
+    <main> <!--Основа сайта, весь контент-->
+        <section class="intro wrapper">
+            <div class="intro-img">
+                <p class="intro-text">Find Your New <br>
+                Modern Apartment</p>
+            </div>
+
+            <div class="intro-contacts">
+                <p><i class="fa fa-phone" aria-hidden="true"></i>+7(918)032-**-**</p>
+                <p class="intro-contacts-p"><i class="fa fa-map-marker" aria-hidden="true"></i>Melborn, Australia</p>
+            </div>
+        </section> <!--Универсальный раздел документа-->
+    </main>
+    
+    <footer> <!--Подвал сайта, контакты и навигация-->
+
+    </footer>
+
+    <script src="https://use.fontawesome.com/f459c34b38.js"></script>
+    <script src="script.js"></script> <!--Подключение файла Джава скрипт-->
+</body>
+</html>
